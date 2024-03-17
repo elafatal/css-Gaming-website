@@ -124,7 +124,7 @@ li a:hover{
   background-color: var(--secondary);
   border-radius: 50%;
 }
-/* header^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* header^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 .sec1{
   font-family: poppinsRegular;
@@ -197,7 +197,7 @@ li a:hover{
   font-weight: 500;
   line-height: 24px;
 }
-/* sec1^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* sec1^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 .sec2{
   position: absolute;
   top: 893px;
@@ -269,8 +269,41 @@ li a:hover{
   height: 132px;
   text-align: center;
  }
- /* sec2^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  */
- 
+ /* sec2^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  */
+ .i1{
+  position:absolute;
+  top: 1679px;
+  left: 147px;
+  width: 545px;
+  color: #fff;
+  font-family: poppinsRegular;
+ }
+ #i1-title{
+
+  font-size: 30px;
+  font-weight: 600;
+ }
+ #i1-p{
+  font-size: 16px;
+  font-weight: 400;
+ }
+ #i2-spider{
+  position: absolute;
+  top: 1870px;
+  left: 147px;
+  border-radius: 5px;
+  width: 1146px;
+  height: 462px;
+  z-index: 2;
+ }
+ #i2-dot{
+  position: absolute;
+  top: 1803px;
+  left: 972px;
+  color: rgba(220, 112, 0, 0.35);
+  ;
+ }
+ /* sec3^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
  
