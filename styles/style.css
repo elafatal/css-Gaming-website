@@ -7,6 +7,10 @@
   font-family: poppinsRegular;
   src: url("..//assets/fonts/Poppins-Regular.ttf");
 }
+@font-face {
+  font-family: Rubik;
+  src: url("../assets/fonts/Rubik-Regular.ttf");
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -120,7 +124,7 @@ li a:hover{
   background-color: var(--secondary);
   border-radius: 50%;
 }
-/* header--------------------------------------------------------------------- */
+/* header^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 .sec1{
   font-family: poppinsRegular;
@@ -148,7 +152,7 @@ li a:hover{
 }
 #line3{
   font-size: 16px;
-  color: var(--secondary);
+  color: #fff;
   font-weight: 500;
   line-height: 32px;
   position: absolute;
@@ -192,6 +196,83 @@ li a:hover{
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-
 }
+/* sec1^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.sec2{
+  position: absolute;
+  top: 893px;
+  left: 147px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 603px;
+}
+#sec2-title{
+  color: white;
+  font-family: Rubik;
+  font-size: 31px;
+}
+#sec2-btn{
+  width: 139px;
+  height: 57px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary-100);
+  color: #fff;
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500px;
+  transition: ease 150ms;
+}
+.sec2-items{
+  font-family: Rubik;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 47px;
+  position: absolute;
+  top:1008px;
+  left: 147px;
+  border-radius: 20px;
+  
+}
+
+.item-cp{
+ padding-top: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap:9px;
+  width: 170px;
+  
+}
+.item-cp p{
+  font-size: 22px;
+  font-weight: 500px;
+  color: #fff;
+}
+.sec2-items li div:hover #cp-img{
+  transform: scale(1.2);
+ }
+
+ .sec2-end{
+  font-size: 35px;
+  font-family: poppinsRegular;
+  font-weight: 600;
+  line-height: 65.63px;
+  color: #fff;
+  position: absolute;
+  top:1480px;
+  left: 307px;
+  width: 826px;
+  height: 132px;
+  text-align: center;
+ }
+ /* sec2^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  */
+ 
+
+
+ 
+
 
