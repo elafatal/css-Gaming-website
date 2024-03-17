@@ -16,6 +16,20 @@ body{
   width: 1440px;
   background-color: var(--blueGradiant);
 }
+:root {
+  --black-700: #000;
+  --blueGradiant: #3b2a9f;
+  --primary-100: #5141aa;
+  --secondary: #fa8305;
+  --box_bg: #1c140f;
+}
+
+.elementOne {
+
+  background-color: var(--black-700);
+}
+
+
 
 /* ------------------------------------------------------------------- */
 .header{
@@ -34,24 +48,26 @@ body{
 
 }
 #logo{
+  position: absolute;
+  top: 25px;
+  left: 59px;
   font-size: 29px;
-  display: inline-block;
+  width: 82px;
+  height: 45px;
   font-family: poppinsBold;
-  padding-top:25px ;
-  padding-bottom: 30px;
-  padding-left: 58.95px;
   
   }
 
 .navbar{
+  position: absolute;
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  gap: 60px;
-  width: 673.2px;
-  height: 41.34px;
-  padding-top: 32px;
-  padding-bottom: 26.66px;
+  gap: 88px;
+  width: 505.41px;
+  height: 24.2px;
+  top:40px;
+  left: 706.63px;
   list-style: none;
   font-family: poppinsRegular;
 }
@@ -70,6 +86,9 @@ li a:hover{
 
 
 #nav-button{
+  position: absolute;
+  left: 1248.16px;
+  top:32px;
   font-size: 16px;
   background-color: var(--secondary); 
   color: #ffffff; 
@@ -77,8 +96,8 @@ li a:hover{
   height: 41.34px;
   padding: 12px 23px; 
   border: none; 
-  margin-left: 20px;
-  border-radius: 5px; 
+  
+  border-radius: 6px; 
 
 }
 .rec-parent{
@@ -103,17 +122,76 @@ li a:hover{
 }
 /* header--------------------------------------------------------------------- */
 
+.sec1{
+  font-family: poppinsRegular;
+}
+#line1{
+  
+  font-size: 20px;
+  color: var(--secondary);
+  font-weight: 700;
+  line-height: 31px;
+  position: absolute;
+  top:203px;
+  left: 147px;
+}
+#line2{
+  
+  font-size: 50px;
+  color: #fff;
+  line-height: 77.6px;
+  position: absolute;
+  top:251px;
+  left: 147px;
+  width: 479.63px;
+  height: 234px;
+}
+#line3{
+  font-size: 16px;
+  color: var(--secondary);
+  font-weight: 500;
+  line-height: 32px;
+  position: absolute;
+  top:511px;
+  left: 147px;
+  width: 527px;
+  height: 101pz;
+}
+#img1{
+  position: absolute;
+  left: 649px;
+  top: 409px;
+ 
+}
+#img2{
+  position: absolute;
+  left: 828px;
+  top: 202px;
 
-:root {
-  --black-700: #000;
-  --blueGradiant: #3b2a9f;
-  --primary-100: #5141aa;
-  --secondary: #fa8305;
-  --box_bg: #1c140f;
+}
+#img3{
+  position: absolute;
+  left: 1168px;
+  top: 201px;
+}
+#img4{
+  position: absolute;
+  left: 772px;
 }
 
-.elementOne {
+.sec1-btn{
+  position: absolute;
+  left: 147px;
+  top: 660px;
+  width: 195px;
+  height: 53px;
+  background-color: var(--secondary);
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 
-  background-color: var(--black-700);
 }
 
