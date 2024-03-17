@@ -1,20 +1,119 @@
 /* 1. don't modify this style */
+@font-face {
+  font-family: poppinsBold;
+  src: url("..//assets/fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: poppinsRegular;
+  src: url("..//assets/fonts/Poppins-Regular.ttf");
+}
 * {
-  padding: 0;
-  margin: 0;
-
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
-
-/* 2. we use :root for default variables */
-:root {
-  /* --"somekey-attr": "somevalue" i.e : */
-  --black-700: #000;
+body{
+  width: 1440px;
+  background-color: var(--blueGradiant);
 }
-/* 3. and we use it like this */
+
+/* ------------------------------------------------------------------- */
+.header{
+  background-color: var(--blueGradiant);
+  color: white;
+  width: 1440px;
+  text-decoration: none;
+  height: 100px;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 565.52px;
+
+  
+
+}
+#logo{
+  font-size: 29px;
+  display: inline-block;
+  font-family: poppinsBold;
+  padding-top:25px ;
+  padding-bottom: 30px;
+  padding-left: 58.95px;
+  
+  }
+
+.navbar{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  width: 673.2px;
+  height: 41.34px;
+  padding-top: 32px;
+  padding-bottom: 26.66px;
+  list-style: none;
+  font-family: poppinsRegular;
+}
+
+.nav-item{
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+li a:active{
+  text-decoration: underline;
+}
+li a:hover{
+  font-size: 120%;
+}
+
+
+#nav-button{
+  font-size: 16px;
+  background-color: var(--secondary); 
+  color: #ffffff; 
+  width: 131.66px;
+  height: 41.34px;
+  padding: 12px 23px; 
+  border: none; 
+  margin-left: 20px;
+  border-radius: 5px; 
+
+}
+.rec-parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3px;
+  width: 38.97px;
+
+}
+#rec1{
+  width: 30.97px;
+  background-color: var(--secondary);
+  height: 4px;
+  border-radius: 3px;
+}
+#rec2{
+  width: 5px;
+  height: 4px;
+  background-color: var(--secondary);
+  border-radius: 50%;
+}
+/* header--------------------------------------------------------------------- */
+
+
+:root {
+  --black-700: #000;
+  --blueGradiant: #3b2a9f;
+  --primary-100: #5141aa;
+  --secondary: #fa8305;
+  --box_bg: #1c140f;
+}
+
 .elementOne {
-  /* var(--"somekey-attr") */
+
   background-color: var(--black-700);
 }
 
-/* good luck */
