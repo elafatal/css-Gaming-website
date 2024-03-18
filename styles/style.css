@@ -229,6 +229,9 @@ li a:hover{
   font-weight: 500px;
   transition: ease 150ms;
 }
+#sec2-btn:hover{
+  transform: scale(1.1);
+}
 .sec2-items{
   font-family: Rubik;
   text-decoration: none;
@@ -355,10 +358,85 @@ li a:hover{
   border: none;
   border-radius: 10px;
   background-color: var(--primary-100);
+  transition: transform 0.3s;
+ }
+ .item3:hover{
+  transform: scale(1.1); 
  }
 /* sec4^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.sec5{
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+  gap:74px;
+  position: absolute;
+  top: 3400px;
+  left: 135px;
+  font-family: poppinsRegular;
+  color: #fff;
+}
 
+#sec5-title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+#sec5-p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.sec5-2{
+  background-color: var(--box_bg);
+  border-radius: 15px;
+  height: 189px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap:42.32px;
+}
+#p1{
+  font-size: 30px;
+  margin-top:40px ;
+  margin-left: 56px;
+  font-weight: 500;
+}
+#p2{
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 56px;
+  width: 636px;
 
- 
-
-
+}
+#input1{
+  width: 385.68px;
+  height: 48px;
+  position: absolute;
+  margin-top: 71px;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+}
+input::placeholder {
+  font-size: 13px;
+  font-weight: 300;
+  position: absolute;
+  left: 20.55px;
+  
+}
+.btn5{
+  border-radius: 8px;
+  background-color: var(--secondary);
+  color: #fff;
+  width: 105px;
+  height: 37px;
+  position: absolute;
+  left: 1008.77px;
+  top: 276.5px;
+  border: none;
+  transition: transform 0.3s;
+}
+.btn5:hover{
+  transform: scale(1.1); 
+}
+/* sec5^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
