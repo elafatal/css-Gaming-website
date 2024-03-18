@@ -18,7 +18,7 @@
 }
 body{
   width: 1440px;
-  background-color: var(--blueGradiant);
+  
 }
 :root {
   --black-700: #000;
@@ -26,6 +26,11 @@ body{
   --primary-100: #5141aa;
   --secondary: #fa8305;
   --box_bg: #1c140f;
+}
+.all{
+  width: 1440px;
+  height: 4000px;
+  background-color: var(--blueGradiant);
 }
 
 .elementOne {
@@ -304,6 +309,54 @@ li a:hover{
   ;
  }
  /* sec3^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+ .item1{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  top: 2508px;
+  left: 471px;
+  font-family: poppinsRegular;
+  color: #fff;
+ }
+ #sec4-title{
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+ }
+ #sec4-p{
+  font-size: 14px;
+  line-height: 26.25px;
+  font-weight: 400;
+  text-align: center;
+ }
+ .item2{
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 2707px;
+  left: 135px;
+  border-radius: 20px;
+  text-align: center;
+  width: 1170px;
+ }
+ .item3{
+  width: 139px;
+  height: 57px;
+  position: absolute;
+  top: 3258px;
+  left: 650px;
+  font-size: 20px;
+  font-family: Rubik;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary-100);
+ }
+/* sec4^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 
  
